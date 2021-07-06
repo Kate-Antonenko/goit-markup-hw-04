@@ -229,7 +229,16 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.desc-item::before {
+
+.icon-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: var(--background-color);
+  height: 120px;
+}
+/* .desc-item::before {
   content: '';
   display: block;
   height: 120px;
@@ -250,7 +259,7 @@ body {
 }
 .icon-astronaut::before {
   background-image: url(../images/astronaut.svg);
-}
+} */
 .desc-item {
   /* width: 270px; */
   flex-basis: calc((100% - 3 * 30px) / 4);
